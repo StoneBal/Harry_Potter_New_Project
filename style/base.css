@@ -1,0 +1,163 @@
+/**
+ * Content of files:
+ *
+ * Base.css................General rules.
+ * Layout.css..............Arrangements.
+ * Components.css..........Showings.
+ * Font-Family.css.........Import font.
+ * Style.css...............CSS summary.
+ * jQuery.js...............jQuery formatting.
+*/
+
+
+/**
+ * Content:
+ *
+ * Box-size................"box-sizing", margin.
+ * Html....................Font properties.
+ * Header..................background formating.
+ * Formating.
+ *  -> h1, h2, h4..........formatting.
+ *  -> p, em...............formatting.
+ *  -> blockquote..........formatting.
+ *  -> section.............formatting.
+ *  -> section3............formatting.
+ * IMG.....................formatting.
+ * Footer..................formatting.
+
+*/
+
+
+
+/* ------------------------------ *\
+              Box-size
+\* ------------------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+
+
+/* ------------------------------ *\
+                 Html
+\* ------------------------------ */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(185, 245, 245);
+    background: url('../img/HP_hatter2.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
+/* ------------------------------ *\
+              Header
+\* ------------------------------ */
+
+header {
+    background-image: url(../img/HP_logó.jpg);
+    background-size: 300%;
+    background-repeat: no-repeat;
+}
+
+
+
+/* ------------------------------ *\
+              Formating
+\* ------------------------------ */
+
+
+/* === h1, h2, h4 === */
+
+h1,
+h2,
+h4 {
+    font-family: 'EB Garamond', serif;
+    color: gold;
+    padding: 0.65em;
+    line-height: 1.1em;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    padding-left: 2rem;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 1em;
+    text-transform: lowercase;
+    line-height: .01em;
+    padding-left: 2rem;
+}
+
+
+/* === p, em === */
+
+p {
+    font-size: 1.07em;
+    line-height: 1.52em;
+    padding: 1.25em;
+}
+
+em {
+    font-size: initial;
+}
+
+
+/* === blockquote  === */
+
+.blockquote_ul {
+    list-style: " - ";
+}
+
+
+/* === section  === */
+
+section {
+    border-bottom: 1px solid white;
+}
+
+
+/* === section3  === */
+
+.section3_ul {
+    padding-left: 4.375em;
+}
+
+.section3_ul li {
+    list-style-type: disc;
+    width: 80%;
+}
+
+
+
+/* ------------------------------ *\
+                 IMG
+\* ------------------------------ */
+
+img {
+    width: 285px;
+    display: block;
+    margin: auto;
+}
+
+
+
+/* ------------------------------ *\
+              Footer
+\* ------------------------------ */
+
+footer {
+    font-size: 0.5em;
+}

@@ -1,0 +1,126 @@
+/**
+ * Content:
+ *
+ * @media (min-width: 950px)..........formatting windows.
+ *   ->Nav..................Formating.
+ *   ->main.................Grid view.
+ *   ->navbar...............Formating.
+ *   ->blockquote...........Formating.
+ *   ->hpbook-flex..........Flex view.
+ *   ->arrow................Formating.
+*/
+
+
+
+/* ------------------------------ *\
+      @media (min-width: 950px)
+\* ------------------------------ */
+
+
+/* === nav === */
+
+@media (min-width: 950px) {
+    nav {
+        text-align: center;
+        font-family: "fantasy";
+        font-size: 2.5em;
+        padding: 1em 0 1em 0;
+    }
+}
+
+@media (min-width: 950px) {
+    .nav a {
+        display: inline-block;
+    }
+}
+
+
+/* === main === */
+
+@media (min-width: 950px) {
+    .main_grid {
+        display: grid;
+        grid-template-columns: 1fr 7fr 1fr;
+        grid-template-areas:
+            ". h1 ."
+            ". section0 ."
+            ". section1 ."
+            ". section2 ."
+            ". section3 ."
+            ". section4 ."
+            ". section5 ."
+            ". section6 ."
+            ". section7 ."
+            ". section71 ."
+            ". section72 .";
+    }
+    
+    h1 { grid-area: h1; }
+    .section0   { grid-area: section0; }
+    .section1   { grid-area: section1; }
+    .section2   { grid-area: section2; }
+    .section3   { grid-area: section3; }
+    .section4   { grid-area: section4; }
+    .section5   { grid-area: section5; }
+    .section6   { grid-area: section6; }
+    .section7   { grid-area: section7; }
+    .section71   { grid-area: section71; }
+    .section72   { grid-area: section72; }
+}
+
+/* === navbar === */
+
+@media (min-width: 950px) {
+    .navbar {
+        background-color: rgba(255, 0, 170, 0.1);
+        border: 1px solid black;
+        padding: 20px;
+        margin: 5px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px black;
+        white-space: nowrap
+    }
+
+    .navbar:hover {
+        color: rgba(255, 0, 0, .3);
+        border-color: rgba(255, 0, 0, .3);
+        transition: all 0.6s ease-in-out;
+    }
+}
+
+
+/* === blockquote === */
+
+@media (min-width: 950px) {
+    blockquote {
+        width: 70%;
+        margin: 50px;
+    }
+}
+
+
+/* === hpbook-flex === */
+
+@media (min-width: 950px) {
+    .hpbook-flex {
+        display: flex;
+        margin: 1em 3em;
+        max-width: 90%;
+
+    }
+}
+
+
+/* === arrow === */
+
+
+@media (min-width: 950px) {
+    .arrow {
+        text-decoration: none;
+        color: rebeccapurple;
+    }
+    .arrow:hover {
+    
+        color: gold;
+    }
+}

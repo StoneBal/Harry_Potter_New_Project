@@ -1,0 +1,136 @@
+/**
+ * Content:
+ *
+ * Nav, navbar..........Formating.
+ * blockquote...........Formatting.
+ * HPbook-flex..........Formatting.
+ * Nav2.................Formatting.
+ * arrow................Formatting.
+*/
+
+
+
+/* ------------------------------ *\
+             Nav, navbar
+\* ------------------------------ */
+
+.nav {
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "fantasy";
+    font-size: 1.5em;
+}
+
+.nav a {
+    color: rgba(208, 216, 94, 0.555);
+    text-decoration: none;
+    
+}
+
+.nav a {
+    display: block;
+}
+
+.navbar {
+    display: inline-block;
+    border-bottom: 1px solid white;
+    padding: 20px 0;
+    white-space: nowrap;
+}
+
+
+
+/* ------------------------------ *\
+              blockquote
+\* ------------------------------ */
+
+blockquote {
+    width: 80%;
+    margin: 0.24em auto;
+    font-family: "Open Sans";
+    font-style: italic;
+    color: #555555;
+    padding: 1em 4em;
+    border-left: 8px solid #78C0A8;
+    line-height: 1.6;
+    position: relative;
+    background: #EDEDED;
+}
+
+blockquote::before {
+    font-family: Arial;
+    content: "\201C";
+    color: #78C0A8;
+    font-size: 4em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
+
+blockquote::after {
+    content: '';
+}
+
+
+
+/* ------------------------------ *\
+              HPbook-flex
+\* ------------------------------ */
+
+.hpbook-flex {
+    text-align: justify;
+    padding: 0 1.1em;
+    margin: auto;
+    display: block;
+}
+
+
+
+/* ------------------------------ *\
+    nav2, .nav2, .nav2_hp_resz
+\* ------------------------------ */
+
+.nav2 {
+    background-color: rgb(0, 0, 0, 0);
+    margin: auto;
+    display: block;
+    border: none;
+    padding: 1.1em;
+    font-size: 1.3em;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav2_hp_resz {
+    display: inline-block;
+    border: 1px solid rgba(249, 253, 3, 0.589);
+    padding: .4em;
+    margin: .4em;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.nav2_hp_resz:hover {
+    color: rgba(173, 68, 68, 0.781);
+    border-color: rgba(173, 68, 68, 0.781);
+    transition: all 0.1s ease-in-out;
+}
+
+
+
+/* ------------------------------ *\
+              arrow
+\* ------------------------------ */
+
+.arrow {
+    text-align: right;
+    position: fixed;
+    bottom: 1.3em;
+    right: 2.2em;
+    display: block;
+}
