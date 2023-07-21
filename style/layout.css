@@ -134,3 +134,18 @@ blockquote::after {
     right: 2.2em;
     display: block;
 }
+
+
+
+/* ------------------------------ *\
+              Footer
+\* ------------------------------ */
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
